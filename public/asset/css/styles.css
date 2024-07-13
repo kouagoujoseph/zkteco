@@ -1,0 +1,39 @@
+/* styles.css */
+header {
+    position: relative;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+header > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+header #p1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header #p2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
+header button {
+    font-size: 20px !important; /* Augmente la taille du texte du bouton à 20 pixels */
+    padding: 10px 20px !important; /* Augmente l'espace autour du texte du bouton */
+    border-radius: 50px !important; /* Appliquer un border-radius pour créer une forme de bouton arrondi */
+}
+
+
+.ColorText{
+    color: black !important;
+}
